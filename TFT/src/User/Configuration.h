@@ -63,7 +63,7 @@
  *         12: DARKBLUE,  13: DARKGREEN,  14: GRAY,   15: DARKGRAY
  */
 #define ST7920_BKCOLOR 2
-#define ST7920_FNCOLOR 12
+#define ST7920_FNCOLOR 7
 
 /**
  *  Text displayed at the top of the TFT in Marlin Mode.
@@ -91,7 +91,7 @@
  *
  *  Options:  0: Disabled    1: Enabled
  */
-#define SERIAL_ALWAYS_ON 0  // Default: 0 (Disabled)
+#define SERIAL_ALWAYS_ON 1  // Default: 0 (Disabled)
 
 //===========================================================================
 //========================== Touch Mode Settings ============================
@@ -106,7 +106,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 250000
+#define BAUDRATE 115200
 
 /**
  * Default Touch Mode Language
